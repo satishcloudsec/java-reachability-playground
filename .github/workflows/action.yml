@@ -10,3 +10,6 @@ jobs:
         continue-on-error: true
         env:
           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
+      - name: Detect secrets with Talisman
+        uses: carhartl/talisman-secrets-scan-action@v1.3.0
+
