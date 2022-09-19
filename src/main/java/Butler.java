@@ -11,6 +11,10 @@ public class Butler {
         list1.add("Hello");
         ArrayList<String> list2 = new ArrayList<String>();
         list2.add("World");
+        String aws="AKIAIOSFODNN7EXAMPLE";
+        String awsec="wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY";
+        String password="test";
+        String key="1234";
 
         System.out.println(ListUtils.union(list1, list2));
     }
